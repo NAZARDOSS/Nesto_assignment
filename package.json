@@ -1,0 +1,12 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "workspaces": [
+    "task1-3-react",
+    "task4-vue"
+  ],
+  "scripts": {
+    "task1-3": "npm --workspace=task1-3-react run dev",
+    "task4": "npm --workspace=task4-vue run dev"
+  }
+}
